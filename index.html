@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
 	</head>
 	<body class="homepage is-preload">
@@ -33,14 +34,17 @@
 						</section>
 
 					<!-- Intro -->
-						<section id="intro" class="container">
+						<section id="intro" >
 							<div class="row">
+								<header class="major serv">
+									<h2>Services</h2>
+								</header>
 								<div class="col-4 col-12-medium">
 									<section class="first">
 										<img src="assets/children.png" class="icon solid featured">
 										<header>
-											<h2>Bethel Kids</h2>
-											<h2>*En Español*</h2>
+											<h3>Bethel Kids</h3>
+											<h3>*En Español*</h3>
 										</header>
 										<p class="strTxt">
 											Membership Rates:
@@ -56,7 +60,7 @@
 									<section class="middle">
 										<img src="assets/painting.png" class="icon solid featured alt fa-bolt">
 										<header>
-											<h2>Local Paint Parties</h2>
+											<h3>Local Paint Parties</h3>
 										</header>
 										<p class="strTxt">Our events are mobile, so we'll bring the party to you! Get ready for a fun, memorable, and creative experience!</p>
 									</section>
@@ -65,15 +69,82 @@
 									<section class="last">
 										<img src="assets/video-call.png" class="icon solid featured alt2 fa-star"></i>
 										<header>
-											<h2>Zoom Party</h2>
+											<h3>Zoom Party</h3>
 										</header>
 										<p class="strTxt">You can have all the fun while staying in your PJs, just join a Zoom call to start a virtual paint Party!</p>
 									</section>
 								</div>
 							</div>
 						</section>
-
+						
 				</section>
+				
+				<section class="gallery">
+					<header class="major">
+						<h2>Check out part of the gallery:</h2>
+					</header>
+					<!-- <h4></h4> -->
+					<nav>
+						<button id="mainBtn">Gallery</button>
+						<button id="kidsBtn">Kids Section</button>
+						<!-- <button>Kids Art</button>
+						<button>Kids Art</button> -->
+					</nav>
+			<!-- GALLERY IMAGES-->
+            <div id="mainGallery" class="row">
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Aspen-Delight-large-600x809.jpg" alt="Colorful Aspen" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Family-Tree-600x470.jpg" alt="Family Tree" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Spring-Ride-600x761.jpg" alt="Spring Ride" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Color-of-the-Night-1-600x778.jpg" alt="Night Sky" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Grateful-large-600x767.jpg" alt="Grateful with Flowers" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Dakota-Sunset-large-600x467.jpg" alt="Dakota Sunset" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Home-Home-Is-Where-The-Heart-Is-600x461.jpg" alt="Home State" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Honeymoon-large-600x767.jpg" alt="Sunset at the Beach" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Lavender-Skies-large-600x476.jpg" alt="Blue Landscape" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Navy-Daisies-600x773.jpg" alt="Navy Daisies" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Sunday-Coffee-large-600x464.jpg" alt="Still Life Coffee" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Photo-Bomb-large-600x780.jpg" alt="Funny Bird" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Simple-Thank-You.jpg" alt="Flower" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Layers-of-Fall-plastered-large-600x469.jpg" alt="Flower" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Southern-Lights-large-600x819.jpg" alt="Landscape and Northern Lights" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Candied-Floral-600x780.jpg" alt="Yellow Flowers" onclick="myFunction(this);">
+                </div>
+            </div>
+            <!-- KIDS SECTION IMAGES-->
+            <div id="kidsGallery" class="row">
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Flamingling-600x775.jpg" alt="Flamingling" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Block-Party-large-1-1-600x470.jpg" alt="Nature" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Magic-Owl-large-600x764.jpg" alt="Nature" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/French-Roses-1-600x750.jpg" alt="Nature" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Jonahs-Friend-600x471.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/05/Love-U-Large-600x762.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Bee-Friends-large-1-600x761.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Bubbles-large-600x779.jpg" alt="kids Art" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Daisy-Friends-600x761.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Dancing-Unicorn-large-600x470.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Daniels-Pet-600x764.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2022/01/Heart-on-a-String-Large-493x1024.jpg" alt="kids Art" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Dare-to-be-Different-large-600x498.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Dolly-Llama-large-600x786.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Ella-Fun-600x751.jpg" alt="kids Art" onclick="myFunction(this);">
+                  <img src="https://bethelartstudio.com/wp-content/uploads/2021/04/Emoji-Tag-This-large-600x467.jpg" alt="kids Art" onclick="myFunction(this);">
+                </div>
+            </div>
+        </section>
 
 			<!-- Main -->
 				<section id="main">
@@ -162,8 +233,7 @@
 										<input type="text" placeholder="Name" name="name">
 										<input type="email" placeholder="Email" name="name">
 										<label class='msgLabel' for="mesage">Be sure to let us know of any special requests to be sure that every one of your guests has a great time.</label>
-										<textarea name="mesage">Add a mesage
-										</textarea>
+										<textarea name="mesage" placeholder="Add a message"></textarea>
 
 										<div class="checks">
 											<div>
@@ -178,8 +248,8 @@
 											</div>
 										</div>
 										<div class="formBtns">
-											<input type="submit" value="Send Messsage">
-											<input type="reset" value="Clear Form">
+											<input type="submit" class="button" value="Send Messsage">
+											<input type="reset" class="button" value="Clear Form">
 										</div>
 									</form>
 								</section>
