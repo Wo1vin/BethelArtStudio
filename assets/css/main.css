@@ -81,7 +81,7 @@ input, select, textarea {
 	}
 	.strTxt, .intro li p{
 		color: white;
-		font-size: 1em;
+		font-size: 1.1em;
 		font-weight: 400;
 	}
 	.last p.strTxt, .middle p.strTxt{
@@ -268,7 +268,7 @@ input, select, textarea {
 			width: 100%;
 			position: relative;
 			text-align: center;
-			border-top: solid 1px #ccc;
+			border-top: solid 2px #fff;
 			top: 1em;
 			margin: 0 0 3em 0;
 			
@@ -1046,7 +1046,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
-
+		#book form input[type=date] {
+			display: block;
+			width: 50%;
+		}
 		/* Basic */
 
 			html, body {
@@ -1262,21 +1265,37 @@ input, select, textarea {
 		#book > .row{
 			padding: 0;
 		}
+		#book form {
+			padding: 0px 10%;
+		}
+		#book form input[type=date] {
+			display: block;
+			width: 100%;
+		}
+		#book form label {
+			font-size: 1.1em;
+		}
 		.row > .col-8,#footer .row > .col-4  {
-			width: 75%;
+			width: 80%;
 
 		}
 		#book form div.formBtns {
 			margin-top: 2em;
 			display: flex;
 			flex-direction: column;
-			height: 7em;
+			height: 8em;
 			justify-content: space-around;
 		}
 		#footer > div.row{
 			padding: 0;
 		}
-
+		#footer .row header > p,#footer .row header {
+			padding: 0;
+			text-align: center;
+		}
+		ul.dates li:first-child .date {
+			top: 1em;
+		}
 		#footer ul.dates li, ul.contact li {
 			padding: 1.3em 0 1.3em 4em;
 		}
