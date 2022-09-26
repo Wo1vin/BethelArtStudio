@@ -263,7 +263,6 @@ input, select, textarea {
 			margin: 0.5em 0 0 0;
 			padding-bottom: 0.5em;
 		}
-
 		header.major {
 			width: 100%;
 			position: relative;
@@ -273,7 +272,10 @@ input, select, textarea {
 			margin: 0 0 3em 0;
 			
 		}
-			header.major h2 {
+		section#main header.major {
+			border-top: solid 2px #342e37;
+		}
+		header.major h2 {
 				background: #fff;
 				position: relative;
 				top: -0.65em;
