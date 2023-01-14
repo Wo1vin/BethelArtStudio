@@ -589,7 +589,7 @@ input, select, textarea {
 				ul.social li a:before {
 					color: #fff;
 					font-size: 2rem;
-					line-height: 1.5rem;
+					/* line-height: 1.5rem; */
 				}
 				ul.social li a:hover {
 					background-color: #f371b0;
@@ -598,7 +598,6 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		position: relative;
-		text-decoration: none;
 	}
 
 		.icon:before {
@@ -608,7 +607,7 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			margin-top: .65rem;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -622,9 +621,9 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon:before {
+		/* .icon:before {
 			line-height: inherit;
-		}
+		} */
 
 		.icon > .label {
 			display: none;
