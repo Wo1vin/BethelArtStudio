@@ -122,7 +122,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-itrems: baseline;
+		align-items: baseline;
 		justify-content: center;
 	}
 
@@ -156,7 +156,7 @@ input, select, textarea {
 	form input[type=remail], form input[type=date],
 	form select, 
 	form textarea {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: block;
 		border: 0;
 		margin: 0 0 .75rem 0;
@@ -211,13 +211,13 @@ input, select, textarea {
 		margin-top: 1rem;
 		display: flex;
 		flex-direction: row;
-		align-itrems: center;
+		align-items: center;
 		justify-content: space-around;
 	}
 		div.checks > div{
 			display: flex;
 			flex-direction: row;
-			align-itrems: center;
+			align-items: center;
 		}
 		div.checks > div > label {
 			margin: 0 0 0 .5rem;
@@ -338,7 +338,7 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
@@ -1061,7 +1061,7 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
-				align-itrems: left;
+				align-items: left;
 				flex-direction: row ;
 			}
 				.row > * {
