@@ -686,12 +686,7 @@ input, select, textarea {
 		height: 100%;
 		background-color:  #CCE8F4;
 		background-image: 
-			url("https://bethelartstudio.com/wp-content/uploads/2021/05/Aspen-Delight-large-600x809.jpg"),
-			url('https://bethelartstudio.com/wp-content/uploads/2021/04/Spring-Ride-600x761.jpg'),
-			url('https://bethelartstudio.com/wp-content/uploads/2021/04/Color-of-the-Night-1-600x778.jpg'),
-			url('https://bethelartstudio.com/wp-content/uploads/2021/05/Dakota-Sunset-large-600x467.jpg'),
-			url('https://bethelartstudio.com/wp-content/uploads/2021/05/Honeymoon-large-600x767.jpg'),
-			url('https://bethelartstudio.com/wp-content/uploads/2021/05/Simple-Thank-You.jpg');
+			url("./../samples/banner.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position-x: 0, 19rem, 39rem, 56rem,89rem,103%;
@@ -1236,6 +1231,10 @@ input, select, textarea {
 						margin: 0 1rem;
 					}
 				}
+				#banner {
+					background-size: cover;
+				}
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
