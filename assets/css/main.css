@@ -482,7 +482,7 @@ input, select, textarea {
 
 		ul.contact li {
 			position: relative;
-			border-top: solid 1px #ddd;
+			/* border-top: solid 1px #ddd; */
 			padding: 1.3rem 0 1.3rem 7rem;
 		}
 
@@ -919,7 +919,7 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		#footer ul.contact li,
+		/* #footer ul.contact li, */
 		#footer ul.dates li,
 		#footer ul.divided li {
 			border-top-color: #342e37;
